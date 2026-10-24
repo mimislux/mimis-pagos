@@ -1,0 +1,13 @@
+{
+  "name": "mimis-pagos",
+  "main": "src/index.js",
+  "compatibility_date": "2026-09-01",
+  "compatibility_flags": ["nodejs_compat"],
+  "workers_dev": false,
+  "preview_urls": false,
+  "secrets_store_secrets": [
+    { "binding": "MELI_TOKEN", "store_id": "9bed706d3f9740158c3974471de823b1", "secret_name": "MELI_ACCESS_TOKEN" },
+    { "binding": "MELI_TOKEN_TEST", "store_id": "9bed706d3f9740158c3974471de823b1", "secret_name": "MELI_ACCESS_TOKEN_SANDBOX" }
+  ],
+  "observability": { "enabled": true }
+}
